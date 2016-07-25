@@ -49,7 +49,7 @@ export PATH=$PATH:$conda_temp/bin
 echo "---> Updating environment"
 conda update --yes --quiet --all
 
-echo "--> Adding R channels"
+echo "-----> Adding R channels"
 conda config --add channels r
 
 echo "-----> Installing Dependencies..."
